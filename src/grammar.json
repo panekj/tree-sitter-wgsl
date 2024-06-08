@@ -21,19 +21,6 @@
         }
       ]
     },
-    "comment": {
-      "type": "CHOICE",
-      "members": [
-        {
-          "type": "SYMBOL",
-          "name": "line_comment"
-        },
-        {
-          "type": "SYMBOL",
-          "name": "block_comment"
-        }
-      ]
-    },
     "line_comment": {
       "type": "TOKEN",
       "content": {
@@ -3398,4 +3385,3 @@
   "inline": [],
   "supertypes": []
 }
-
